@@ -1,0 +1,68 @@
+name: "Tarefa (Engineering)"
+description: "Trabalho planejado com aceite e evidências"
+title: "[TASK] "
+labels: ["needs-triage"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - db
+        - tiles
+        - api
+        - frontend
+        - infra
+        - pipelines
+    validations:
+      required: true
+
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: "O que precisa ficar verdadeiro no final?"
+      placeholder: "Ex.: Publicar tiles MVT versionados para camada X com cache e validação."
+    validations:
+      required: true
+
+  - type: textarea
+    id: escopo
+    attributes:
+      label: Escopo (inclui / exclui)
+      description: "Deixe explícito o que entra e o que NÃO entra."
+      placeholder: |
+        Inclui:
+        - ...
+        Exclui:
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: aceite
+    attributes:
+      label: Critérios de aceite (testáveis)
+      description: "Use checks objetivos (curl 200, endpoint, métrica, arquivo gerado, etc.)"
+      placeholder: |
+        - GET /... retorna 200
+        - latência < Xms
+        - evidência anexada
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: "Cole logs, prints, comandos, links de PR, outputs de teste."
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencias
+    attributes:
+      label: Dependências
+      description: "Liste tarefas/PRs/repos que precisam acontecer antes."
+    validations:
+      required: false
