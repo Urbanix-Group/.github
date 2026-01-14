@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A0B7A"/>
+      <stop offset="1" stop-color="#5B2BFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20" y="-20" width="1320" height="360" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="32" fill="url(#g)"/>
+  
+  <!-- subtle grid -->
+  <g opacity="0.18">
+    <path d="M80 40H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 90H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 140H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 190H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 240H1200" stroke="white" stroke-width="1"/>
+    <path d="M160 30V290" stroke="white" stroke-width="1"/>
+    <path d="M320 30V290" stroke="white" stroke-width="1"/>
+    <path d="M480 30V290" stroke="white" stroke-width="1"/>
+    <path d="M640 30V290" stroke="white" stroke-width="1"/>
+    <path d="M800 30V290" stroke="white" stroke-width="1"/>
+    <path d="M960 30V290" stroke="white" stroke-width="1"/>
+    <path d="M1120 30V290" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- hero card -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="64" width="1120" height="192" rx="24" fill="rgba(255,255,255,0.10)"/>
+  </g>
+
+  <!-- "logo" placeholder -->
+  <g>
+    <rect x="120" y="108" width="120" height="120" rx="28" fill="rgba(255,255,255,0.14)"/>
+    <path d="M152 196V132H192C205.255 132 216 142.745 216 156C216 169.255 205.255 180 192 180H176V196H152Z" fill="white" opacity="0.92"/>
+    <circle cx="200" cy="212" r="6" fill="white" opacity="0.92"/>
+  </g>
+
+  <text x="270" y="148" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="white">Urbanix</text>
+  <text x="270" y="190" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="rgba(255,255,255,0.92)">
+    Inteligência territorial • Mapas • Dados • Decisão
+  </text>
+  <text x="270" y="224" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.78)">
+    Perfil público no GitHub — engenharia e governança para publicar mapas com confiança.
+  </text>
+</svg>

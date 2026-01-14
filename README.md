@@ -1,12 +1,9 @@
-# Urbanix
+# `.github` (Urbanix)
 
-A Urbanix desenvolve soluções de mapas e inteligência territorial para publicação, auditoria e operação de projetos geoespaciais.
+Este repositório é especial no GitHub: ele pode conter o **README do perfil público** da organização em `profile/README.md` e também arquivos padrão de “saúde da comunidade” que podem ser reaproveitados pelos repositórios da organização.
 
-## O que fazemos
-- Publicação de mapas com foco em performance e governança
-- Pipelines de dados geoespaciais (padronização, validação e versionamento)
-- Operação com trilha de auditoria e segurança por camadas
+- Perfil público: `profile/README.md`
+- Assets (imagens): `assets/`
+- Avisos e conformidade: `LEGAL-NOTICE.md`
 
-## Contato
-- Suporte interno: atendimento@urbanixgroup.com.br
-
+> Observação: mantenha este repositório **público** apenas com conteúdo institucional e não sensível.
