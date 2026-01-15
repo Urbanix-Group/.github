@@ -22,4 +22,4 @@ A Urbanix integra dados georreferenciados e análises para apoiar decisões em p
 - Consulte `SECURITY.md` e `LEGAL-NOTICE.md` quando aplicável.
 
 ## Contato
-- Email: SEU_EMAIL_AQUI
+- Email: atendimento@urbanixgroup.com.br
