@@ -9,9 +9,9 @@
 
 <p align="center">
   <!-- Substitua os links abaixo pelos oficiais -->
-  <a href="https://www.linkedin.com/company/SEU_LINK_AQUI">LinkedIn</a> •
-  <a href="https://SEU_SITE_AQUI">Site</a> •
-  <a href="mailto:SEU_EMAIL_AQUI">Contato</a>
+  <a href="https://www.linkedin.com/company/group-urbanix">LinkedIn</a> •
+  <a href="https://www.instagram.com/urbanixgroup/">Site</a> •
+  <a href="mailto:atendimento@urbanixgroup.com.br">Contato</a>
 </p>
 
 ---
@@ -61,7 +61,3 @@ Para uso de marcas e menções, mantemos um aviso de conformidade em `LEGAL-NOTI
 
 ---
 
-### Para a equipe (nota interna)
-- Ajuste links (LinkedIn/Site/Email).
-- Revise o que pode ser público sem expor dados sensíveis.
-- Mantenha os repositórios privados como padrão; publique apenas o que for “sanitizado”.
