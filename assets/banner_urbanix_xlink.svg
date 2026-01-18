@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A0B7A"/>
+      <stop offset="1" stop-color="#5B2BFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20" y="-20" width="1320" height="360" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="32" fill="url(#g)"/>
+  
+  <!-- subtle grid -->
+  <g opacity="0.18">
+    <path d="M80 40H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 90H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 140H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 190H1200" stroke="white" stroke-width="1"/>
+    <path d="M80 240H1200" stroke="white" stroke-width="1"/>
+    <path d="M160 30V290" stroke="white" stroke-width="1"/>
+    <path d="M320 30V290" stroke="white" stroke-width="1"/>
+    <path d="M480 30V290" stroke="white" stroke-width="1"/>
+    <path d="M640 30V290" stroke="white" stroke-width="1"/>
+    <path d="M800 30V290" stroke="white" stroke-width="1"/>
+    <path d="M960 30V290" stroke="white" stroke-width="1"/>
+    <path d="M1120 30V290" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- hero card -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="64" width="1120" height="192" rx="24" fill="rgba(255,255,255,0.10)"/>
+  </g>
+
+  <!-- logo area -->
+  <g>
+    <rect x="120" y="108" width="120" height="120" rx="28" fill="rgba(255,255,255,0.14)"/>
+    <image x="125" y="113" width="110" height="110" xlink:href="data:image/png;base64,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"/>
+  </g>
+
+<text x="270" y="148" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="white">Urbanix</text>
+  <text x="270" y="190" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="rgba(255,255,255,0.92)">
+    Inteligência territorial • Mapas • Dados • Decisão
+  </text>
+  <text x="270" y="224" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.78)">
+    Perfil público no GitHub — engenharia e governança para publicar mapas com confiança.
+  </text>
+</svg>
