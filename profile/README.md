@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/banner.svg" alt="Urbanix" />
+  <img src="../assets/banner_urbanix_xlink.svg" alt="Urbanix" />
 </p>
 
 <p align="center">
